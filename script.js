@@ -4,7 +4,7 @@ function add() {
      if (input.value.trim() === '') {
 return;}
     var li = document.createElement("li");
-    li.innerHTML = input.value + "<button onclick='Delete(event)'>Delete</button>";
+    li.innerHTML = "⭐ㅤ"+ input.value +"ㅤㅤ"+ "<button class='dbutton' onclick='Delete(event)'>Delete</button>";
     list.appendChild(li);
     input.value = "";
 }

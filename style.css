@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+body{
+    background-image: linear-gradient(rgb(77, 185, 212), rgb(21, 33, 105));
+    background-repeat: no-repeat;
+    min-height: 616px;
+    max-height:auto ;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+input{
+    margin-left: 43%;
+    margin-top: 4%;
+    height: 50px;
+    border-style:double;
+    border-radius: 10px;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ ul{
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+    
+ }
+ li{
+    display: inline-flex;
+    justify-content: center;
+    list-style: circle;
+    margin: 10px;
+    border: 3px solid rgb(21, 33, 105);
+    width: auto;
+    border-radius: 10px;
+    background-color: rgb(46, 128, 128);
+    
+ }
+ .button{
+    
+    border-radius:6px ;
+    margin-left: 5px;
+    border-style:none ;
+ }
+ .dbutton{
+    
+    border-radius:6px ;
+    margin-left: 5px;
+    border-style:none ;
+ }
