@@ -35,10 +35,7 @@ input{
     justify-content: center;
     list-style: circle;
     margin: 10px;
-    border: 3px solid rgb(21, 33, 105);
-    width: auto;
-    border-radius: 10px;
-    background-color: rgb(46, 128, 128);
+    
     
  }
  .button{
