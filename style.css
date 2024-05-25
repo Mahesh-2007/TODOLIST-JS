@@ -43,10 +43,24 @@ input{
     border-radius:6px ;
     margin-left: 5px;
     border-style:none ;
+
  }
  .dbutton{
     
     border-radius:6px ;
     margin-left: 5px;
     border-style:none ;
+ }
+ @media(max-width: 460px){
+   body{
+   min-height: 900px;
+   }
+   input{
+       margin-left: 30%
+   }
+   .button{
+       margin-left: 150px;
+       margin-top: 10px;
+   }
+
  }
